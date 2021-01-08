@@ -1,0 +1,872 @@
+@font-face {
+  font-family: "Inter UI";
+  src: url("InterUI-Black.woff2") format("woff2"), url("InterUI-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter UI";
+  src: url("InterUI-Black.woff2") format("woff2"), url("InterUI-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter UI";
+  src: url("InterUI-BlackItalic.woff2") format("woff2"), url("InterUI-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter UI";
+  src: url("InterUI-BlackItalic.woff2") format("woff2"), url("InterUI-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter UI";
+  src: url("InterUI-Bold.woff2") format("woff2"), url("InterUI-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter UI";
+  src: url("InterUI-Bold.woff2") format("woff2"), url("InterUI-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter UI";
+  src: url("InterUI-Italic.woff2") format("woff2"), url("InterUI-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter UI";
+  src: url("InterUI-BoldItalic.woff2") format("woff2"), url("InterUI-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter UI";
+  src: url("InterUI-BoldItalic.woff2") format("woff2"), url("InterUI-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter UI";
+  src: url("InterUI-Italic.woff2") format("woff2"), url("InterUI-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter UI";
+  src: url("InterUI-Medium.woff2") format("woff2"), url("InterUI-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter UI";
+  src: url("InterUI-Medium.woff2") format("woff2"), url("InterUI-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter UI";
+  src: url("InterUI-MediumItalic.woff2") format("woff2"), url("InterUI-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter UI";
+  src: url("InterUI-Regular.woff2") format("woff2"), url("InterUI-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter UI";
+  src: url("InterUI-Regular.woff2") format("woff2"), url("InterUI-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter UI";
+  src: url("InterUI-MediumItalic.woff2") format("woff2"), url("InterUI-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Inter", sans-serif;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  background: #1f4cc6;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(31, 76, 198, 0.83237)), to(rgba(157, 8, 156, 0.868785)));
+  background: linear-gradient(90deg, rgba(31, 76, 198, 0.83237) 0%, rgba(157, 8, 156, 0.868785) 100%);
+}
+
+.Site_Admin_Customer_Overview {
+  width: 1597px;
+  height: 912px;
+  background-color: #f9fafb;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.445);
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.Rectangle {
+  width: 1597px;
+  height: 44px;
+  margin: 0 0 0px;
+  padding: 13px 42.5px 35px 0;
+  background-color: #ffffff;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Rectangle_31 {
+  width: 320px;
+  height: 810px;
+  margin: 0 1px 0 0;
+  -webkit-box-shadow: 0 5px 8px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 5px 8px rgba(0, 0, 0, 0.15);
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 50px;
+  overflow: hidden;
+}
+
+.Brand_Center {
+  width: 339px;
+  height: 21px;
+  margin: 0 1180.5px 9px 18px;
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.62;
+  letter-spacing: normal;
+  color: #242b39;
+}
+
+.SITE-ADMIN {
+  width: 65px;
+  height: 12px;
+  margin: 0 232px 9px 25px;
+  font-family: "Inter", sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  color: #9fa7bb;
+}
+
+.Rectangle-26-Copy-5 {
+  width: 300px;
+  height: 40px;
+  margin: 0 0 1px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+}
+
+.Rectangle-26-Copy-5:hover {
+  background-color: #f1f4f8;
+}
+
+.Customer-Overview {
+  width: 186px;
+  height: 31px;
+  margin: 10px 60px 0 20px;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.47;
+  letter-spacing: normal;
+  color: #242b39;
+}
+
+.online {
+  width: 16px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-left: 15px;
+  fill: #0084ff;
+}
+
+.Rectangle-15 {
+  width: 300px;
+  height: 40px;
+  margin-top: 1px;
+  border-radius: 8px;
+  opacity: 1;
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.Rectangle-15:hover {
+  background-color: #f1f4f8;
+}
+
+.Reports-File-transco {
+  width: 186px;
+  margin: 0px 71px 0 21px;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.47;
+  letter-spacing: normal;
+  color: #242b39;
+}
+
+.list-dot {
+  width: 16px;
+  height: 16px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-left: 17px;
+}
+
+.innerRec {
+  background-color: blueviolet;
+  width: 100px;
+  height: 100px;
+}
+
+.topLeft {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.middle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.CustomOverTitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 556px;
+  height: 37px;
+  margin: 20px 546px 40px 71px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 41px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.37px;
+  color: #000000;
+}
+
+.customInput {
+  width: 251px;
+  height: 20px;
+  margin: 40px 64.5px 25px 71px;
+  padding: 5px 24px 4px 8.2px;
+  border-radius: 3px;
+  border: solid 1px #e2e7ee;
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.searchImg {
+  width: 16px;
+  height: 16px;
+  margin: 2.2px 4.8px 2.8px 0;
+  -o-object-fit: contain;
+     object-fit: contain;
+  cursor: pointer;
+}
+
+.Search {
+  width: 198px;
+  height: 21px;
+  margin: 0 0 0 4.8px;
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.62;
+  letter-spacing: normal;
+  color: #9fa7bb;
+  border: none;
+  outline: none;
+}
+
+.Rectangle-19 {
+  width: 1140px;
+  height: 30px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border: solid 1px #e2e7ee;
+  background-color: #f1f4f8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.CUSTOMER {
+  width: 61px;
+  height: 12px;
+  font-family: "Inter", sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  color: #516173;
+  margin-right: 567px;
+  margin-left: 20px;
+}
+
+.COM-ID {
+  width: 52px;
+  height: 12px;
+  font-family: "Inter", sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  color: #516173;
+  margin-right: 84px;
+}
+
+.LEG-ID {
+  width: 46px;
+  height: 12px;
+  font-family: "Inter", sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  color: #516173;
+  margin-right: 50px;
+}
+
+.SIZE {
+  width: 88px;
+  height: 12px;
+  font-family: "Inter", sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  text-align: right;
+  color: #516173;
+  padding-right: 100px;
+}
+
+.Status {
+  width: 46px;
+  height: 12px;
+  font-family: "Inter", sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  color: #516173;
+}
+
+tbody {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+td.SIZE {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  vertical-align: middle;
+}
+
+.arrow-body-down {
+  width: 9px;
+  height: 9px;
+  margin: 1px 0 0px 7px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  cursor: pointer;
+}
+
+.inputBtnDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: -25px;
+}
+
+.plus {
+  width: 16px;
+  height: 16px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-top: 12px;
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  background-color: #407cff;
+  fill: white;
+  padding: 10px;
+  border-radius: 50%;
+  margin-left: 755px;
+  cursor: pointer;
+}
+
+.plus:hover {
+  background-color: #007cf0;
+}
+
+.tableDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 72px;
+}
+
+.table {
+  height: 290px;
+  width: 1140px;
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+          box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  border: solid 1px #e2e7ee;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 6px;
+  height: 30px;
+  width: 1115px;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+
+.row:hover {
+  background-color: #eff2f7;
+}
+
+.logoImg {
+  margin-left: 20px;
+  margin-right: 11px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Bitmap {
+  width: 24px;
+  height: 24px;
+  margin: 0 1px 0px 0;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.brandNameDiv {
+  width: 161px;
+  margin: 0 99px 0 10px;
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.69;
+  letter-spacing: normal;
+  color: #242b39;
+}
+
+.Update {
+  width: 77px;
+  height: 25px;
+  margin: 1px 93px 1px 73px;
+  padding: 5px 8px 4px;
+  border-radius: 4px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+          box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  border: solid 1px #e2e7ee;
+  background-color: #ffffff;
+  cursor: pointer;
+  outline: none;
+}
+
+.Update:hover {
+  background-color: #f8f5f5;
+}
+
+.Update:disabled {
+  color: black;
+}
+
+.comIdText {
+  height: 30px;
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.69;
+  letter-spacing: normal;
+  color: #242b39;
+}
+
+.comIdDiv {
+  width: 52px;
+  margin-left: 67px;
+  text-align: left;
+}
+
+.legIdDiv {
+  width: 52px;
+  margin-left: 85px;
+  text-align: left;
+}
+
+.legIdText {
+  height: 30px;
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.69;
+  letter-spacing: normal;
+  color: #242b39;
+}
+
+.sizeText {
+  height: 30px;
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.69;
+  letter-spacing: normal;
+  text-align: right;
+  color: #242b39;
+}
+
+.sizeDiv {
+  width: 79px;
+  margin: 0px 2px 0 50px;
+}
+
+.Active {
+  width: 62px;
+  height: 20px;
+  padding: 2px 4px 2px 5px;
+  border-radius: 4px;
+  margin-left: 90px;
+  border: none;
+  background-color: #cffbe9;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #21985e;
+  outline: none;
+  cursor: pointer;
+}
+
+.Active:hover {
+  background-color: #bbfbe1;
+}
+
+.dropDown {
+  width: 164px;
+  font-family: "Inter", sans-serif;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+          box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  border: solid 1px #e2e7ee;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 3px;
+  margin-left: -10px;
+}
+
+.dropDownOption {
+  width: 164px;
+  height: 30px;
+  margin: 0 0 0px;
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+}
+
+.dropDownOption:hover {
+  background-color: #f1f4f8;
+}
+
+.checkDiv {
+  margin-left: 55px;
+}
+
+.textDefaultP {
+  margin-left: 14px;
+}
+
+.arrow-up {
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 0 5px 10px 5px;
+  border-color: transparent transparent #000000 transparent;
+  margin-left: 0px;
+  margin-bottom: 10px;
+}
+
+#arrow {
+  cursor: pointer;
+}
+
+.btnsChange {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 20px;
+}
+
+.scaleBtn {
+  height: 30px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 5px 8px 4px;
+  border-radius: 4px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+          box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  border: solid 1px #e2e7ee;
+  background-color: #ffffff;
+  cursor: pointer;
+  outline: none;
+}
+
+.scaleBtn:hover {
+  background-color: #f8f5f5;
+}
+
+.questionBtn {
+  height: 30px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 5px 8px 4px;
+  border-radius: 4px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+          box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  border: solid 1px #e2e7ee;
+  background-color: #ffffff;
+  cursor: pointer;
+  outline: none;
+}
+
+.questionBtn:hover {
+  background-color: #f8f5f5;
+}
+/*# sourceMappingURL=style.css.map */
